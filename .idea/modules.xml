@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/abc112/abc112.iml" filepath="$PROJECT_DIR$/abc112/abc112.iml" />
       <module fileurl="file://$PROJECT_DIR$/abc113/abc113.iml" filepath="$PROJECT_DIR$/abc113/abc113.iml" />
       <module fileurl="file://$PROJECT_DIR$/abs/abs.iml" filepath="$PROJECT_DIR$/abs/abs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arc001/arc001.iml" filepath="$PROJECT_DIR$/arc001/arc001.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/atcoder-in-kotlin.iml" filepath="$PROJECT_DIR$/.idea/atcoder-in-kotlin.iml" />
     </modules>
   </component>
