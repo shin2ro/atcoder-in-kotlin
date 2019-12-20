@@ -33,6 +33,7 @@
       <module fileurl="file://$PROJECT_DIR$/arc003/arc003.iml" filepath="$PROJECT_DIR$/arc003/arc003.iml" />
       <module fileurl="file://$PROJECT_DIR$/arc006/arc006.iml" filepath="$PROJECT_DIR$/arc006/arc006.iml" />
       <module fileurl="file://$PROJECT_DIR$/arc066/arc066.iml" filepath="$PROJECT_DIR$/arc066/arc066.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arc067/arc067.iml" filepath="$PROJECT_DIR$/arc067/arc067.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/atcoder-in-kotlin.iml" filepath="$PROJECT_DIR$/.idea/atcoder-in-kotlin.iml" />
     </modules>
   </component>
