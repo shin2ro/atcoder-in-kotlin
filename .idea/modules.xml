@@ -52,6 +52,7 @@
       <module fileurl="file://$PROJECT_DIR$/arc080/arc080.iml" filepath="$PROJECT_DIR$/arc080/arc080.iml" />
       <module fileurl="file://$PROJECT_DIR$/arc102/arc102.iml" filepath="$PROJECT_DIR$/arc102/arc102.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/atcoder-in-kotlin.iml" filepath="$PROJECT_DIR$/.idea/atcoder-in-kotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/diverta2019-2/diverta2019-2.iml" filepath="$PROJECT_DIR$/diverta2019-2/diverta2019-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/sumitrust2019/sumitrust2019.iml" filepath="$PROJECT_DIR$/sumitrust2019/sumitrust2019.iml" />
     </modules>
   </component>
