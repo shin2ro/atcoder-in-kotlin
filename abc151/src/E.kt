@@ -10,8 +10,8 @@ fun main(args: Array<String>) {
         val factInv = LongArray(n + 1)
 
         init {
-            fact[1] = 1L
-            for (i in 2 .. n) {
+            fact[0] = 1L
+            for (i in 1..n) {
                 fact[i] = fact[i - 1] * i % mod
             }
             factInv[n] = inv(fact[n])
