@@ -6,21 +6,15 @@ fun main(args: Array<String>) {
         a to b
     }
 
-    val ans = IntArray(h + 1) { inf }
-    ans[h] = 0
+    val dp = IntArray(2e4.toInt() + 1) { inf }
+    dp[0] = 0
 
-    for (i in h - 1 downTo 1) {
+    for (i in 0..h) {
         for (m in ms) {
             val j = i + m.first
-            if (j > h) continue
-            ans[i] = Math.min(ans[j] + m.second, ans[i])
+            dp[j] = Math.min(dp[i] + m.second, dp[j])
         }
     }
 
-    for (m in ms) {
-        val j = m.first
-        ans[0] = Math.min(ans.slice(1..j).min()!! + m.second, ans[0])
-    }
-
-    println(ans[0])
+    println(dp.slice(h..dp.lastIndex).min())
 }
