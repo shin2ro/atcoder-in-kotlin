@@ -3,7 +3,7 @@ fun main(args: Array<String>) {
     val ops = (0 until q).map {
         val (l, r) = readLine()!!.split(' ').map { it.toInt() }
         l to r
-    }.sortedBy { it.first }
+    }
     val cs = IntArray(n + 2)
     for ((l, r) in ops) {
         cs[l] += 1
