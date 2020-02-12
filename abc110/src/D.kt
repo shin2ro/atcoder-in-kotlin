@@ -41,7 +41,7 @@ fun main(args: Array<String>) {
             i++
         }
         if (x > 1) {
-            r[i] = (r[i] ?: 0) + 1
+            r[x] = (r[x] ?: 0) + 1
         }
         return r
     }
